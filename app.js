@@ -1,7 +1,7 @@
 const express =require('express')
 const app=express()
 //require('dotenv').config()
-require("dotenv").config({ path: "./config/.env" })
+require("dotenv").config({ path: '.env' })
 require('express-async-errors')
 //extra security package
 const helmet=require('helmet')
